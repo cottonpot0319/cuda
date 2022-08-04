@@ -1,0 +1,31 @@
+#ifndef SLS_ifr_t
+#define SLS_ifr_t
+
+
+typedef enum
+{
+  IFR_SUCCESS=0,
+  IFR_GET_ERR,
+  IFR_PUT_ERR,
+  IFR_OPEN_ERR,
+  IFR_CLOSE_ERR,
+  IFR_FILE_EMPTY,
+  IFR_DIFF_FILE,
+  IFR_NO_DECODE,
+  IFR_DATA_ERR,
+  IFR_SIZE_ERR,
+  IFR_COLORS_ERR,
+  IFR_MEMORY_ERR,
+  IFR_CASE1=101,
+  IFR_CASE2,
+  IFR_CASE3,
+  IFR_CASE4,
+  IFR_CASE5,
+  IFR_CASE6,
+  IFR_CASE7,
+  IFR_CASE8,
+  IFR_CASE9,
+  IFR_CASE10
+}ifr_t;
+
+#endif
